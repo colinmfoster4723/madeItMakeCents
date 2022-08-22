@@ -8,7 +8,11 @@ function QuestionsPage(props) {
   const [questions, setQuestions] = useState(props.questions);
 
   async function refresh(newQuestion) {
-    setQuestions((prev) => [...prev, { question: newQuestion, reply: "" }]);
+    setQuestions((prev) => [
+      ...prev,
+      { question: newQuestion, reply: "", id: Math.random() * 1 },
+    ]);
+    //set random id until real one is assigned for the key of the QuestionItem
   }
   return (
     <>

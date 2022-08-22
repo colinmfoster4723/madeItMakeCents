@@ -1,0 +1,19 @@
+.editor {
+  padding: 2rem;
+  width: 90%;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  img {
+    padding: 2rem;
+    width: 20rem;
+    height: 20rem;
+  }
+}
