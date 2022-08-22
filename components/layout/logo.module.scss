@@ -1,0 +1,17 @@
+@font-face {
+  font-family: custom;
+  src: url("../../public/BrittanySignature.ttf");
+}
+
+.logo {
+  font-family: custom;
+  font-size: 3rem;
+  border-radius: 100%;
+  scale: 1;
+  transition: 1s;
+
+  &:hover {
+    scale: 1.1;
+    transition: 0.5s;
+  }
+}

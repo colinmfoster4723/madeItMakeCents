@@ -1,0 +1,17 @@
+@font-face {
+  font-family: custom;
+  src: url("../../public/BrittanySignature.ttf");
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  height: 20vh;
+  width: 100%;
+}
+
+.miniLogo {
+  font-family: custom;
+}
